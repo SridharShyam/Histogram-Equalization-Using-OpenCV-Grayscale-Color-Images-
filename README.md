@@ -54,11 +54,11 @@ Display original grayscale image, its histogram, enhanced image, and its histogr
 
 ### Step 6
 
-Read the same image in color format.
+Read the color image `parrot.jpg`.
 
 ### Step 7
 
-Split the image into B, G, R channels and plot their histograms.
+Plot the histogram of the original color image (B, G, R channels).
 
 ### Step 8
 
@@ -70,7 +70,7 @@ Apply histogram equalization on the V (Value) channel.
 
 ### Step 10
 
-Merge the channels and convert the image back to BGR format.
+Convert the enhanced HSV image back to BGR format.
 
 ### Step 11
 
